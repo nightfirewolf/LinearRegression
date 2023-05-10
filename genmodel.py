@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 rf = RandomForestRegressor(max_depth=2, random_state=100)
 
 lr =LinearRegression()
-df = pd.read_csv('file:///C:/Users/AUGUSTINE%20DEINNE/Downloads/book2.csv')
+df = pd.read_csv('book2.csv')
 
 
 y = df['expenses']
